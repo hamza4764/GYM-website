@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Saqib Fitness - Ladies & Gents Gym</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-bar">
+            <a href="#home" class="brand" aria-label="Saqib Fitness home">
+                <img src="logo.png" alt="Saqib Fitness logo" class="brand-logo" width="52" height="52">
+                <h2>Saqib Fitness</h2>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="primaryNav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <nav id="primaryNav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#trainer">Trainer</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#timing">Timing</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#branches">Branches</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="nav-backdrop" id="navBackdrop"></div>
+
+    <section id="home" class="hero">
+        <img src="logo.png" alt="Saqib Fitness logo" class="hero-logo" width="160" height="160">
+        <h1>Transform Your Body</h1>
+        <p>Join Saqib Fitness - Train with Mr. Pakistan MenPhysique 2022!</p>
+        <div class="hero-actions">
+            <a href="#pricing" class="btn">View Memberships</a>
+            <a href="#branches" class="btn btn-ghost">Find a Branch</a>
+        </div>
+    </section>
+
+    <!-- Trainer Section -->
+    <section id="trainer" class="container">
+        <h2>Meet Your Trainer</h2>
+        <p class="subtitle">Real results, real experience - trained under an award-winning physique athlete.</p>
+        <div class="trainer-wrapper">
+            <div class="trainer-img">
+                <img src="trainer2.jpg" alt="Trainer at Saqib Fitness">
+            </div>
+            <div class="trainer-text">
+                <span class="badge"><i class="fa-solid fa-trophy"></i> Mr. Pakistan MenPhysique 2022</span>
+                <h3>Saqib Bashir</h3>
+                <p>Owner and head trainer of Saqib Fitness, Saqib has been a competitive physique athlete since 2016. He has taken the stage in Rawalpindi and Islamabad - from Mr. Capital Zone (RWP) in 2016 and Junior Mr. RWP in 2018 to 1st position at Sr. Mr. Pakistan (65 kg) in 2022 and 2nd place at Mr. Islamabad Physique the same year.</p>
+                <p>He is a Certified Fitness Trainer (National Fitness Union, 2022) and has completed professional training programs with Getz Pharma Talent Academy and Ashraf Chaudhry Associates. That mix of stage discipline and formal training shapes his coaching: clear plans, honest guidance and a serious, no-excuses environment for both ladies and gents.</p>
+                <div class="achieve-strip">
+                    <div><i class="fa-solid fa-medal"></i>Multiple bodybuilding awards</div>
+                    <div><i class="fa-solid fa-certificate"></i>Certified fitness training</div>
+                    <div><i class="fa-solid fa-users"></i>Ladies & Gents coaching</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="container wide-dark">
+        <div class="ach-inner">
+            <h2>Achievements &amp; Recognition</h2>
+            <p class="subtitle">Titles, certificates and trophies earned on the competitive stage and in professional training - the same discipline you'll find in every session here.</p>
+
+            <div class="medal-grid">
+                <div class="medal"><span class="medal-year">2016</span><h4>Mr. Capital Zone (RWP)</h4><p>1st position, Senior class (60+ kg)</p></div>
+                <div class="medal"><span class="medal-year">2018</span><h4>Junior Mr. RWP</h4><p>1st position, Junior class (68 kg)</p></div>
+               
+                <div class="medal"><span class="medal-year">2022</span><h4>Mr. Islamabad</h4><p>2nd position, Men’s Physique</p></div>
+                 <div class="medal"><span class="medal-year">2022</span><h4>Sr. Mr. Pakistan</h4><p>1st position, 65 kg,  Men’s Physique - "Excellent"</p></div>
+            </div>
+
+            <div class="stage-grid">
+                <img src="stage-collage.jpg" alt="Saqib with his Mr. Pakistan 2022 trophy and Mr. Islamabad certificate" loading="lazy">
+                <img src="stage-islamabad.jpg" alt="Saqib on stage holding his Mr. Islamabad certificate and trophy" loading="lazy">
+                <img src="achievements.jpg" alt="Wall of trophies and certificates at Saqib Fitness" loading="lazy">
+            </div>
+
+            <h3 class="small-heading">Certificates</h3>
+            <p class="cert-hint">Tap a certificate to view it larger.</p>
+            <div class="cert-grid">
+                <button type="button" class="cert-card" data-full="cert-rwp-2016.jpg" data-caption="Mr. Capital Zone (RWP) 2016">
+                    <img src="cert-rwp-2016.jpg" alt="Mr. Capital Zone (RWP) 2016 certificate of Saqib Bashir" loading="lazy">
+                    <span class="cert-title">Mr. Capital Zone (RWP) 2016</span>
+                    <span class="cert-sub">Rawalpindi Bodybuilding Association</span>
+                </button>
+                <button type="button" class="cert-card" data-full="cert-rwp-2018.jpg" data-caption="Junior Mr. RWP 2018">
+                    <img src="cert-rwp-2018.jpg" alt="Junior Mr. RWP 2018 certificate of Saqib Bashir" loading="lazy">
+                    <span class="cert-title">Junior Mr. RWP 2018</span>
+                    <span class="cert-sub">Rawalpindi Bodybuilding Association</span>
+                </button>
+                <button type="button" class="cert-card" data-full="cert-pabba-2022.jpg" data-caption="Sr. Mr. Pakistan 2022">
+                    <img src="cert-pabba-2022.jpg" alt="Sr. Mr. Pakistan 2022 certificate of Saqib Bashir" loading="lazy">
+                    <span class="cert-title">Sr. Mr. Pakistan 2022</span>
+                    <span class="cert-sub">Pakistan Amateur Bodybuilding Association</span>
+                </button>
+                <button type="button" class="cert-card" data-full="cert-mr-islamabad-2022.jpg" data-caption="Mr. Islamabad 2022">
+                    <img src="cert-mr-islamabad-2022.jpg" alt="Mr. Islamabad 2022 certificate of Saqib Bashir" loading="lazy">
+                    <span class="cert-title">Mr. Islamabad 2022</span>
+                    <span class="cert-sub">Islamabad BodyBuilding Association</span>
+                </button>
+                <button type="button" class="cert-card" data-full="cert-fitness-trainer.jpg" data-caption="Certified Fitness Trainer">
+                    <img src="cert-fitness-trainer.jpg" alt="Certified Fitness Trainer certificate of Saqib Bashir" loading="lazy">
+                    <span class="cert-title">Certified Fitness Trainer</span>
+                    <span class="cert-sub">National Fitness Union, 2022</span>
+                </button>
+                <button type="button" class="cert-card" data-full="cert-getz.jpg" data-caption="Getz Pharma Talent Academy">
+                    <img src="cert-getz.jpg" alt="Getz Pharma Talent Academy certificate of Saqib Bashir" loading="lazy">
+                    <span class="cert-title">Getz Pharma Talent Academy</span>
+                    <span class="cert-sub">New Induction Training, 2015</span>
+                </button>
+                <button type="button" class="cert-card" data-full="cert-guerrilla.jpg" data-caption="Guerrilla Territory Manager">
+                    <img src="cert-guerrilla.jpg" alt="Guerrilla Territory Manager certificate of Saqib Bashir" loading="lazy">
+                    <span class="cert-title">Guerrilla Territory Manager</span>
+                    <span class="cert-sub">Ashraf Chaudhry Associates, 2018</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Certificate viewer" hidden>
+        <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+        <img id="lightboxImg" src="" alt="">
+        <p id="lightboxCaption"></p>
+    </div>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="container">
+        <h2>Gym Environment & Facilities</h2>
+        <p class="subtitle">A real look inside our gym - top-tier equipment and spacious workout zones designed for both Ladies & Gents.</p>
+        <div class="gallery-grid">
+            <img src="weights.jpg" alt="Free weights and dumbbell rack area">
+            <img src="cardio.jpg" alt="Cardio zone with treadmills and spin bikes">
+            <img src="machines1.jpg" alt="Cable and strength machines">
+            <img src="corridor1.jpg" alt="Bench press and incline bench row">
+            <img src="machines2.jpg" alt="Leg press and strength stations">
+            <img src="legpress1.jpg" alt="Leg extension and leg curl machines">
+            <img src="reception.jpg" alt="Reception desk with trophies and supplement shelf">
+        </div>
+    </section>
+
+    <!-- Timing Section -->
+    <section id="timing" class="container wide-dark">
+        <h2>Gym Timings</h2>
+        <p class="subtitle">Separate, dedicated hours for Ladies and Gents at both branches.</p>
+        <div class="timing-grid">
+            <div class="timing-card">
+                <h3><i class="fa-solid fa-mars"></i> Gents Timing</h3>
+                <div class="timing-row"><span>Morning</span><span>6:00 AM - 9:00 AM</span></div>
+                <div class="timing-row"><span>Evening</span><span>5:00 PM - 12:00 AM</span></div>
+            </div>
+            <div class="timing-card">
+                <h3><i class="fa-solid fa-venus"></i> Ladies Timing</h3>
+                <div class="timing-row"><span>Morning</span><span>9:00 AM - 12:00 PM</span></div>
+                <div class="timing-row"><span>Afternoon</span><span>2:00 PM - 5:00 PM</span></div>
+            </div>
+        </div>
+        <p class="timing-note">Ladies' hours are strictly reserved - gents are not permitted to enter during Ladies timing.</p>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="container">
+        <h2>Membership Plans</h2>
+        <p class="subtitle">Affordable and flexible plans for every fitness goal.</p>
+
+        <div class="pricing-cards">
+            <div class="pricing-card">
+                <h3>Strength Training</h3>
+                <div class="price">Rs 2,000<span>/mo</span></div>
+                <div class="admission-fee">Admission Fee: Rs 1,000 (One-time)</div>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> Access to all Free Weights</li>
+                    <li><i class="fa-solid fa-check"></i> Machine Workouts</li>
+                    <li><i class="fa-solid fa-check"></i> Locker Room Access</li>
+                    <li><i class="fa-solid fa-check"></i> General Guidance</li>
+                </ul>
+                <a href="#contact" class="btn full-width plan-btn" data-plan="Strength Training">Select Plan</a>
+            </div>
+
+            <div class="pricing-card">
+                <h3>Cardio + Strength</h3>
+                <div class="price">Rs 4,000<span>/mo</span></div>
+                <div class="admission-fee">Admission Fee: Rs 1,000 (One-time)</div>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> Full Gym Access</li>
+                    <li><i class="fa-solid fa-check"></i> Advanced Cardio Machines</li>
+                    <li><i class="fa-solid fa-check"></i> Treadmills & Ellipticals</li>
+                    <li><i class="fa-solid fa-check"></i> Fat Burn Guidelines</li>
+                    <li><i class="fa-solid fa-check"></i> Cross Fit Training</li>
+                    <li><i class="fa-solid fa-check"></i> Stepper Machine & Vibrator</li>
+
+                </ul>
+                <a href="#contact" class="btn full-width plan-btn" data-plan="Cardio + Strength">Select Plan</a>
+            </div>
+
+            <div class="pricing-card premium">
+                <h3>With Personal Training</h3>
+                <div class="price">Rs 20,000<span>/mo</span></div>
+                <div class="admission-fee">Admission Fee: Rs 1,000 (One-time)</div>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> 1-on-1 Expert Coaching</li>
+                    <li><i class="fa-solid fa-check"></i> Customized Diet Plan</li>
+                    <li><i class="fa-solid fa-check"></i> Guaranteed Results</li>
+                    <li><i class="fa-solid fa-check"></i> Weight Loss & Weight Gain Program</li>
+                    <li><i class="fa-solid fa-check"></i> Stepper Machine & Vibration Plate</li>
+                    <li><i class="fa-solid fa-check"></i> Cross Fit Training</li>
+                    <li><i class="fa-solid fa-check"></i> VIP Support</li>
+                </ul>
+                <a href="#contact" class="btn full-width plan-btn" data-plan="With Personal Training">Select Plan</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Branches Section -->
+    <section id="branches" class="container">
+        <h2>Our Branches</h2>
+        <p class="subtitle">Two locations, one standard of training. Pick the branch closest to you.</p>
+        <div class="branch-grid">
+            <article class="branch-card">
+                <span class="branch-tag"><i class="fa-solid fa-location-dot"></i> Branch 1</span>
+                <h3>Iqbal Town, Islamabad</h3>
+                <p class="rating"><i class="fa-solid fa-star"></i> 4.7 on Google (42 reviews)</p>
+                <p><i class="fa-solid fa-map-pin"></i> Basement, Al Zahir Plaza, Main Service Rd E, Iqbal Town, Islamabad 44000</p>
+                <p><i class="fa-solid fa-clock"></i> Gents: 6am-9am &amp; 5pm-12am<br>Ladies: 9am-12pm &amp; 2pm-5pm</p>
+                <p><i class="fa-solid fa-phone"></i> <a href="tel:+923435272716" class="phone-link">+92 343 5272716</a></p>
+                <p><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/923165341699" target="_blank" rel="noopener" class="wa-link">+92 316 5341699</a></p>
+                <p><i class="fa-solid fa-location-crosshairs"></i> Plus Code: J4W3+79 Islamabad</p>
+                <div class="branch-actions">
+                    <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Saqib+Fitness+Ladies+and+Gents+Gym+Iqbal+Town+Islamabad" target="_blank" rel="noopener"><i class="fa-solid fa-diamond-turn-right"></i> Directions</a>
+                    <a class="btn btn-outline" href="tel:+923435272716"><i class="fa-solid fa-phone"></i> Call</a>
+                </div>
+                <div class="map-container"><iframe title="Saqib Fitness Iqbal Town map" src="https://maps.google.com/maps?q=Saqib+Fitness+Ladies+and+Gents+Gym,+Iqbal+Town,+Islamabad&amp;z=15&amp;output=embed" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            </article>
+
+            <article class="branch-card">
+                <span class="branch-tag"><i class="fa-solid fa-location-dot"></i> Branch 2</span>
+                <h3>Dhoke Kala Khan, Rawalpindi</h3>
+                <p class="rating"><i class="fa-solid fa-star"></i> 4.6 on Google (178 reviews)</p>
+                <p><i class="fa-solid fa-map-pin"></i> Jamia High School, near Govt. Hashmat Ali Islamia College, Murshad Road, Dhoke Kala Khan, Rawalpindi 46000</p>
+                <p><i class="fa-solid fa-clock"></i> Gents: 6am-9am &amp; 5pm-12am<br>Ladies: 9am-12pm &amp; 2pm-5pm</p>
+                <p><i class="fa-solid fa-phone"></i> <a href="tel:+923165341699" class="phone-link">+92 316 5341699</a></p>
+                <p><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/923165341699" target="_blank" rel="noopener" class="wa-link">+92 316 5341699</a></p>
+                <p><i class="fa-solid fa-location-crosshairs"></i> Plus Code: J3VV+VF Rawalpindi</p>
+                <div class="branch-actions">
+                    <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Saqib+Fitness+Ladies+and+Gents+Gym+Dhoke+Kala+Khan+Rawalpindi" target="_blank" rel="noopener"><i class="fa-solid fa-diamond-turn-right"></i> Directions</a>
+                    <a class="btn btn-outline" href="tel:+923165341699"><i class="fa-solid fa-phone"></i> Call</a>
+                </div>
+                <div class="map-container"><iframe title="Saqib Fitness Dhoke Kala Khan map" src="https://maps.google.com/maps?q=Saqib+Fitness+Ladies+and+Gents+Gym,+Dhoke+Kala+Khan,+Rawalpindi&amp;z=15&amp;output=embed" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2>Get In Touch</h2>
+        <p class="subtitle">Have questions or ready to join? Send us a message or visit the gym directly.</p>
+
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <h3 class="small-heading">Contact Information</h3>
+                <p><i class="fa-solid fa-location-dot"></i> <span><strong>Islamabad:</strong> Al Zahir Plaza, Main Service Rd E, Iqbal Town</span></p>
+                <p><i class="fa-solid fa-location-dot"></i> <span><strong>Rawalpindi:</strong> Murshad Road, Dhoke Kala Khan</span></p>
+
+                <p>
+                    <a href="tel:+923435272716" class="phone-link">
+                        <i class="fa-solid fa-phone"></i> +92 343 5272716 (Call)
+                    </a>
+                </p>
+
+                <p>
+                    <a href="https://wa.me/923165341699" target="_blank" class="wa-link">
+                        <i class="fa-brands fa-whatsapp"></i> +92 316 5341699 (WhatsApp)
+                    </a>
+                </p>
+
+                <p><i class="fa-solid fa-clock"></i> Gents: 6am-9am & 5pm-12am | Ladies: 9am-12pm & 2pm-5pm</p>
+
+                <h3 class="small-heading" style="margin-top: 30px;">Follow Us</h3>
+                <div class="social-row">
+                    <a href="https://www.tiktok.com/@saqibfitness" target="_blank" class="social-icon tiktok" aria-label="TikTok" rel="noopener"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.instagram.com/saqibfitnessgym/" target="_blank" class="social-icon instagram" aria-label="Instagram" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@saqibfitness" target="_blank" class="social-icon youtube" aria-label="YouTube" rel="noopener"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/SAQIBFITNESS" target="_blank" class="social-icon facebook" aria-label="Facebook" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+
+                <div class="storefront-shot">
+                    <img src="storefront.jpg" alt="Saqib Fitness storefront entrance sign, Iqbal Town, Islamabad branch">
+                </div>
+                <div class="storefront-shot">
+                    <img src="exterior2.jpg" alt="Saqib Fitness building exterior at night">
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form id="contactForm">
+                    <h3 class="small-heading">Send us a Message</h3>
+                    <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                    <input type="tel" id="phone" name="phone" placeholder="Your Phone Number (e.g. 0300...)" required>
+                    <select id="plan" name="plan">
+                        <option value="">Select Plan (optional)</option>
+                        <option>Strength Training</option>
+                        <option>Cardio + Strength</option>
+                        <option>With Personal Training</option>
+                    </select>
+                    <select id="branch" name="branch" required>
+                        <option value="" disabled selected>Select Branch</option>
+                        <option>Iqbal Town, Islamabad</option>
+                        <option>Dhoke Kala Khan, Rawalpindi</option>
+                    </select>
+                    <input type="email" id="email" name="email" placeholder="Your Email Address">
+                    <textarea id="message" name="message" placeholder="Your message will be written automatically when you pick a plan and branch - you can edit it" required></textarea>
+                    <button type="submit" id="submitBtn">Send Message</button>
+                    <p id="formStatus" class="form-status"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <img src="logo.png" alt="Saqib Fitness logo" class="footer-logo" width="72" height="72" loading="lazy">
+        <p>&copy; 2026 Saqib Fitness Ladies & Gents Gym. All Rights Reserved.</p>
+    </footer>
+
+    <a href="https://wa.me/923165341699" target="_blank" class="floating-whatsapp" aria-label="Chat with us on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <nav class="mobile-bar" aria-label="Quick actions">
+        <a href="tel:+923435272716"><i class="fa-solid fa-phone"></i>Call</a>
+        <a href="https://wa.me/923165341699" target="_blank" rel="noopener" class="mb-wa"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+        <a href="#pricing" class="mb-join"><i class="fa-solid fa-dumbbell"></i>Join</a>
+    </nav>
+
+    <script src="main.js"></script>
+</body>
+</html>
